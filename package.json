@@ -1,0 +1,21 @@
+{
+  "name": "playwright-typescript-test",
+  "version": "1.0.0",
+  "description": "Playwright Framework with Typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test"
+  },
+    "keywords": [
+        "playwright",
+        "typescript",
+        "playwright-test"
+    ],
+  "author": "Yashshvi Mittal/Kalle Ollonqvist",
+  "license": "MIT",
+  "dependencies": {
+    "@playwright/test": "^1.35.1",
+    "npm": "^9.6.4",
+    "typescript": "^5.1.6"
+  }
+}
