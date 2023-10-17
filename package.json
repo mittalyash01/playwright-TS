@@ -6,16 +6,18 @@
   "scripts": {
     "test": "npx playwright test"
   },
-    "keywords": [
-        "playwright",
-        "typescript",
-        "playwright-test"
-    ],
+  "keywords": [
+    "playwright",
+    "typescript",
+    "playwright-test"
+  ],
   "author": "Yashshvi Mittal/Kalle Ollonqvist",
   "license": "MIT",
   "dependencies": {
-    "@playwright/test": "^1.35.1",
     "npm": "^9.6.4",
     "typescript": "^5.1.6"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.36.2"
   }
 }
