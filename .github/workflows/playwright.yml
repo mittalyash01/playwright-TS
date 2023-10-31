@@ -30,7 +30,7 @@ jobs:
         path: playwright-report/
         retention-days: 30
     - name: Deploy report to Github Pages
-      if: github.ref == 'refs/heads/publish-report'
+      if: github.ref == 'refs/heads/main'
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
