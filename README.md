@@ -1,4 +1,7 @@
 # playwright-typescript-test
+
+[CI Test Report](https://mittalyash01.github.io/playwright-typescript-test/)
+
 This is Boilerplate/Template for Playwright-Typescript framework
 
 Phase 1- Frontend UI testing: 
